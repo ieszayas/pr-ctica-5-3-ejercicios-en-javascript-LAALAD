@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.card-body {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.miColorCabecera {
+    background-color: #f9f9f9;
+}
+
+.miColorNav {
+    background-color: #e3f2fd;
+}
+
+.miColorFoot {
+    background-color: #f0f8fd;
+}
+
+.imgCarrousel {
+    max-width: 60%;
+    height: auto;
+}
+
+.miCaption {
+    max-width: 40%;
+    max-height: 25%;
+}
+
+/* Cambiar color de las flechas a negro*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    /* Flechas negras */
+    border-radius: 50%;
+}
+
+.reviews-prev {
+    left: -75px;
+}
+
+.reviews-next {
+    right: -75px;
+}
+
+.suscribete-pos {
+    top: 20px;
+}
