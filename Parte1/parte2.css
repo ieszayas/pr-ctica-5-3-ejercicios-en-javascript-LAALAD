@@ -134,6 +134,13 @@ body.dark-mode {
     /* Texto blanco para los encabezados */
 }
 
+.contenedor-servicios.dark-mode div div {
+    background-color: #363f52;
+    /* Fondo oscuro para los servicios */
+    color: #fff;
+    /* Texto blanco en los servicios */
+}
+
 .miColorFoot.dark-mode {
     background-color: #16274d !important;/* Fondo oscuro para el footer */    
 }
@@ -142,13 +149,6 @@ body.dark-mode {
     /* Iconos RRSS en blanco*/
     color: #fff !important;
     /* Texto blanco en el footer */
-}
-
-.contenedor-servicios.dark-mode div div {
-    background-color: #363f52;
-    /* Fondo oscuro para los servicios */
-    color: #fff;
-    /* Texto blanco en los servicios */
 }
 
 /*RELOJ*/

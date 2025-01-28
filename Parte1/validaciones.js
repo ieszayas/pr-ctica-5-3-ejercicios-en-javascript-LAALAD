@@ -1,7 +1,8 @@
 // Obtener el botón Limpiar y el Toast
 const formulario = document.getElementById('novedadesForm');
 const enviarFormularioBtn = document.getElementById('enviarFormulario');
-const toastEnviar = new bootstrap.Toast(document.getElementById('toastEnviar'));
+//const toastEnviar = new bootstrap.Toast(document.getElementById('toastEnviar'));
+const toastEnviar = new bootstrap.Toast(document.getElementById('toastEnviar'), { autohide: true, delay: 4000 });
 let formIsValid = true;
 
 
