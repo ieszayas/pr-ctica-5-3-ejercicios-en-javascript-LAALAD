@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif !important;
     background-color: #f8f9fa;
 }
 
@@ -149,6 +149,10 @@ body.dark-mode {
     /* Fondo oscuro para los servicios */
     color: #fff;
     /* Texto blanco en los servicios */
+}
+
+.dark-mode #prueba{
+ background-color: aquamarine;
 }
 
 /*RELOJ*/
