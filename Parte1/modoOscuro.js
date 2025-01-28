@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const servicios = document.querySelectorAll('.contenedor-servicios'); // Todos los elementos con esta clase
     const tableRows = document.querySelectorAll('.table-striped tbody tr'); // Filas de la tabla
     const tableCells = document.querySelectorAll('.table-striped td, .table-striped th'); // Celdas de la tabla
+    const formulario = document.getElementById('prueba')
 
 
     // Recuperar el estado del modo oscuro desde el localStorage
@@ -26,6 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         navbar.classList.toggle('dark-mode');
         footer.classList.toggle('dark-mode');
+
+        formulario.classList.toggle('dark-mode');
+
         landingPageSection.classList.toggle('dark-mode');
         servicios.forEach(servicio => servicio.classList.toggle('dark-mode'));
         tableRows.forEach(row => row.classList.toggle('dark-mode'));
@@ -38,6 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
         // Si el modo oscuro está activado, añadir la clase dark-mode a los elementos
         body.classList.add('dark-mode');
         footer.classList.add('dark-mode');
+        
+        formulario.classList.add('dark-mode');
+
         navbar.classList.add('dark-mode');
         landingPageSection.classList.add('dark-mode');
         servicios.forEach(servicio => servicio.classList.add('dark-mode'));

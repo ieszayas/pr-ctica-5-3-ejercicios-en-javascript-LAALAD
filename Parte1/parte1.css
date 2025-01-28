@@ -69,6 +69,11 @@ h2 {
     top: 20px;
 }
 
+#prueba {
+    padding: 20px;
+    background-color: rgb(248, 248, 248);
+}
+
 /* Estilos generales para el cuerpo en modo oscuro */
 body.dark-mode {
     background-color: #121212;
@@ -135,7 +140,8 @@ body.dark-mode {
 }
 
 .miColorFoot.dark-mode {
-    background-color: #16274d !important;/* Fondo oscuro para el footer */    
+    background-color: #16274d !important;
+    /* Fondo oscuro para el footer */
 }
 
 .miColorFoot.dark-mode .bi {
@@ -151,8 +157,9 @@ body.dark-mode {
     /* Texto blanco en los servicios */
 }
 
-.dark-mode #prueba{
- background-color: aquamarine;
+.dark-mode #prueba {
+    padding: 20px;
+    background-color: rgb(37, 41, 95);
 }
 
 /*RELOJ*/
@@ -173,4 +180,3 @@ body.dark-mode {
 }
 
 /*Buscar tabla*/
-
