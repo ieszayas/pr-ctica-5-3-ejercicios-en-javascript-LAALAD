@@ -28,12 +28,12 @@ document.addEventListener("DOMContentLoaded", function () {
         navbar.classList.toggle('dark-mode');
         footer.classList.toggle('dark-mode');
 
-        formulario.classList.toggle('dark-mode');
 
         landingPageSection.classList.toggle('dark-mode');
         servicios.forEach(servicio => servicio.classList.toggle('dark-mode'));
         tableRows.forEach(row => row.classList.toggle('dark-mode'));
         tableCells.forEach(cell => cell.classList.toggle('dark-mode'));
+        formulario.classList.toggle('dark-mode');
 
     });
     if (modoOscuro) {
@@ -42,14 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
         // Si el modo oscuro está activado, añadir la clase dark-mode a los elementos
         body.classList.add('dark-mode');
         footer.classList.add('dark-mode');
-        
-        formulario.classList.add('dark-mode');
 
         navbar.classList.add('dark-mode');
         landingPageSection.classList.add('dark-mode');
         servicios.forEach(servicio => servicio.classList.add('dark-mode'));
         tableRows.forEach(row => row.classList.add('dark-mode'));
         tableCells.forEach(cell => cell.classList.add('dark-mode'));
+        
+        formulario.classList.add('dark-mode');
     } else {
         // Si el modo oscuro no está activado, cambiar el texto del botón a 'Modo Oscuro'
         modoOscuroBtn.textContent = 'Modo Oscuro';
